@@ -1,2 +1,5 @@
+# Static site: no build step. These settings override anything set in the Netlify dashboard.
 [build]
+  base = ""
+  command = "echo 'Static site, nothing to build'"
   publish = "."
